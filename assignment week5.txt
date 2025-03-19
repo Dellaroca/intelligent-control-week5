@@ -1,0 +1,18 @@
+Human Pose Estimation (HPE) menggunakan YOLOv8 menawarkan keseimbangan antara kecepatan dan akurasi dalam mendeteksi posisi tubuh manusia. 
+Dibandingkan dengan model HPE konvensional seperti OpenPose atau HRNet, YOLOv8 memiliki arsitektur yang lebih efisien melalui pendekatan Anchor-Free dan Decoupled Head, 
+memungkinkan prediksi keypoints secara langsung tanpa memerlukan referensi kotak pembatas (bounding box). 
+Keunggulan utama YOLOv8 adalah kemampuannya melakukan deteksi secara real-time dengan latensi rendah, 
+menjadikannya ideal untuk aplikasi yang memerlukan respons cepat seperti pengawasan video, analisis olahraga, dan interaksi manusia-mesin. 
+Namun, tantangan yang dihadapi meliputi kesulitan mendeteksi pose kompleks di lingkungan dengan pencahayaan buruk atau occlusion (bagian tubuh yang tersembunyi), 
+meskipun performanya tetap stabil di berbagai skenario. Dengan kemajuan teknologi dan optimasi algoritma, 
+YOLOv8 menjadi solusi andal dan fleksibel untuk berbagai kebutuhan Human Pose Estimation di dunia nyata.
+
+Keunggulan YOLOv8 untuk HPE
+- Efisiensi dan Kecepatan
+YOLOv8 memiliki arsitektur yang dioptimalkan sehingga mampu melakukan inferensi secara real-time dengan latensi rendah. Ini sangat berguna dalam aplikasi seperti pemantauan keamanan, analisis olahraga, dan interaksi manusia-mesin.
+- Akurasi yang Lebih Baik
+Dibandingkan dengan pendahulunya, YOLOv8 memiliki peningkatan dalam deteksi titik kunci dengan error yang lebih rendah berkat peningkatan arsitektur jaringan dan teknik augmentasi data.
+- Kemudahan Implementasi
+YOLOv8 mendukung berbagai framework seperti PyTorch dan dapat dengan mudah digunakan melalui pustaka Ultralytics dengan beberapa baris kode.
+- Dukungan Multi-Pose
+Model ini mampu mendeteksi banyak orang dalam satu frame dan menangani variasi pose dengan baik.
